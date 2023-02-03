@@ -12,7 +12,7 @@ import (
 
 var Database *gorm.DB
 
-var urlDSN = "root:Dee154595@@tcp(localhost:3306)/myDB?parseTime=true"
+var urlDSN = "user:Password@@tcp(localhost:3306)/myDB?parseTime=true"
 var err error
 
 func DataMigration() {
